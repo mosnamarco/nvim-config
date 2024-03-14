@@ -18,6 +18,7 @@ require('mason-lspconfig').setup({
 		"html",
 		"cssls",
 		"eslint",
+        "vtsls"
 	},
 	handlers = {
 		lsp_zero.default_setup,

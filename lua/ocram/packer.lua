@@ -42,6 +42,10 @@ return require('packer').startup(function(use)
 			{'hrsh7th/nvim-cmp'},
 			{'hrsh7th/cmp-nvim-lsp'},
 			{'L3MON4D3/LuaSnip'},
+
+            -- snippets
+            {'L3MON4D3/LuaSnip'},             -- Required
+            {'rafamadriz/friendly-snippets'}, -- Optional
 		}
 	}
 	use {
@@ -49,4 +53,10 @@ return require('packer').startup(function(use)
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	}
+    use 'peitalin/vim-jsx-typescript'
+    use 'yioneko/nvim-vtsls'
+    use {
+        'kyazdani42/nvim-web-devicons',
+        'kyazdani42/nvim-tree.lua',
+    }
 end)
