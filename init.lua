@@ -46,4 +46,5 @@ require("lazy").setup({
 	"mfussenegger/nvim-lint",
 	"mhartington/formatter.nvim",
 	"VonHeikemen/lsp-zero.nvim",
+	"tpope/vim-fugitive",
 }, {})
