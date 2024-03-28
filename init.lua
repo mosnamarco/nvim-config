@@ -45,4 +45,5 @@ require("lazy").setup({
 	"saadparwaiz1/cmp_luasnip",
 	"mfussenegger/nvim-lint",
 	"mhartington/formatter.nvim",
+	"VonHeikemen/lsp-zero.nvim",
 }, {})
